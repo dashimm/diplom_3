@@ -42,7 +42,7 @@ class RecoverPageLocators:
     recover_form_text = (By.XPATH, ".//h2[text() = 'Восстановление пароля']")
 
 
-class PersonalProfileLocators:
+class PersonalAccountLocators:
     profile_form = (By.XPATH, ".//div[@class = 'Account_account__vgk_w']")
     profile_button = (By.XPATH, ".//a[text() = 'Профиль']")
     order_history_button = (By.XPATH, ".//a[text() = 'История заказов']")

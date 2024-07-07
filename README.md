@@ -25,4 +25,5 @@ $ pip3 install -r requirements.txt
 **Allure отчет о тестировании**
 
 $ python3 -m pytest tests/ --alluredir=allure_results
+
 $ allure serve allure_results
